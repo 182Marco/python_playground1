@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "messaggio": "Non mi è arrivato il collo"
+  },
+  {
+    "id": 2,
+    "messaggio": "Vorrei sapere dove si trova la mia spedizione"
+  },
+  {
+    "id": 3,
+    "messaggio": "Il tracking risulta fermo da tre giorni"
+  },
+  {
+    "id": 4,
+    "messaggio": "Ho ricevuto il pacco danneggiato"
+  },
+  {
+    "id": 5,
+    "messaggio": "La consegna è stata effettuata all'indirizzo sbagliato"
+  },
+  {
+    "id": 6,
+    "messaggio": "Potete inviarmi una copia della fattura?"
+  },
+  {
+    "id": 7,
+    "messaggio": "L'importo riportato in fattura non è corretto"
+  },
+  {
+    "id": 8,
+    "messaggio": "Non riesco a scaricare la fattura dal portale"
+  },
+  {
+    "id": 9,
+    "messaggio": "Ho ricevuto una fattura duplicata"
+  },
+  {
+    "id": 10,
+    "messaggio": "Vorrei modificare i dati di fatturazione"
+  },
+  {
+    "id": 11,
+    "messaggio": "L'app si blocca quando apro i dettagli della spedizione"
+  },
+  {
+    "id": 12,
+    "messaggio": "Non riesco ad accedere al mio account dall'app"
+  },
+  {
+    "id": 13,
+    "messaggio": "Il pulsante per aggiornare il tracking non funziona"
+  },
+  {
+    "id": 14,
+    "messaggio": "L'app mostra una schermata bianca dopo il login"
+  },
+  {
+    "id": 15,
+    "messaggio": "Ricevo un errore quando provo a confermare l'indirizzo"
+  },
+  {
+    "id": 16,
+    "messaggio": "Grazie per l'assistenza ricevuta"
+  },
+  {
+    "id": 17,
+    "messaggio": "Servizio eccellente, complimenti"
+  },
+  {
+    "id": 18,
+    "messaggio": "Volevo ringraziarvi per la rapidità della consegna"
+  },
+  {
+    "id": 19,
+    "messaggio": "Tutto perfetto, grazie mille"
+  },
+  {
+    "id": 20,
+    "messaggio": "Apprezzo molto il supporto ricevuto"
+  }
+]
