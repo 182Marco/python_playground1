@@ -14,12 +14,13 @@ istruzioni = (
     "rispondi in modo tecnico e aggiungendo le reazioni chimiche sottostanti ai processi"
 )
 
+openAiParams = { "instructions": istruzioni, "model": model}
+
 def callAi(testo):
     try:
-        res = client.responeses.create(
+        res = client.responses.create(
             input=testo,
-            instructions=istruzioni,
-            model=model
+            **openAiParams
         )
 
         return res.output_text
@@ -33,10 +34,9 @@ def callAi(testo):
     
 async def async_callAi(testo):
     try:
-        res = await async_client.responeses.create(
+        res = await async_client.responses.create(
             input=testo,
-            instructions=istruzioni,
-            model=model
+             **openAiParams
         )
 
         return res.output_text.strip().lower()
