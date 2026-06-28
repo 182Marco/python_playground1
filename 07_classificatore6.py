@@ -58,3 +58,9 @@ def getTickets():
     with open("tickets.json", encoding="utf-8") as f:
         dati = json.load(f)
         return [Ticket(**d) for d in dati]
+    
+
+
+tickets = getTickets()
+
+responses = [callAi(t.messaggio) for t in tickets]
